@@ -1,14 +1,17 @@
-# Hands-On Pentesting & Security Journal
+# Hands-On Cybersecurity & Pentesting Journal
 
-This repo documents my hands-on practice, tools, and methodologies as I learn penetration testing.
+This project documents my hands-on lab exercises, network scans, and security methodology as I build my skills in penetration testing.
 
 ## Lab Environment
-- **OS:** Kali Linux (VirtualBox VM)
+- **Operating System:** Kali Linux
+- **Hypervisor:** Oracle VirtualBox
 - **Host OS:** Windows 11
 
-## Learning Modules & Practice Labs
+---
 
-| # | Module / Topic | Description | Link |
+## Completed Labs & Exercises
+
+| # | Topic | Description | Link |
 |---|---|---|---|
-| 01 | Network Reconnaissance | Initial domain enumeration and port scanning against `scanme.nmap.org`. | [View Lab](./01-network-recon/) |
-| 02 | Web Enumeration | *(In Progress)* Directory brute-forcing and HTTP analysis. | Coming Soon |
+| **01** | Network Reconnaissance | Initial domain enumeration (`whois`), port scanning (`nmap`), and ad-hoc file transfers (`python3`) against `scanme.nmap.org`. | [View Lab](./01-network-recon/) |
+| **02** | Web Enumeration | *(Upcoming)* Web server directory scanning and HTTP inspection. | *In Progress* |
